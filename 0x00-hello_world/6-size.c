@@ -2,18 +2,20 @@
 
 /**
  * main - Program to print various types on the computer it is compiled and run
+ * 
  * Return: 0 on success
- * /
+ */
 
 int main(void)
 {
+	
 	char a;
 	int b;
 	long int c;
 	long long int d;
 	float f;
 
-	// sizeof refers the size of a variable
+	
 	printf("Size of a char: %lu byte(s)\n",(unsigned long)sizeof(a));
 	printf("Size of int: %lu byte(s)\n",(unsigned long)sizeof(b));
 	printf("Size of a long int: %lu byte(s)\n",(unsigned long)sizeof(c));
