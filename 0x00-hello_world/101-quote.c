@@ -1,14 +1,14 @@
 #include <stdio.h>
-
-/**Main -prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
- * followed by a newline, to standard error 
- * Return:(1);
+#include <unistd.h> 
+/**
+ * main -Prints the last part of the quote and a new line to a standard error
+ * Return: 1 if successful
  */
 
 int main(void)
 
 {
 
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",59);
+	write(2, "and that piece of art is useful - Dora Korpar, 2015-10-19\n",59);
 	return (1);
 }
